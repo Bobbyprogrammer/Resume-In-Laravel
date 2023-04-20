@@ -1,0 +1,43 @@
+html,body{
+    height:100%;
+}
+.container-fluid{
+min-height: 100%;
+}
+a.nav-link{
+    color:whitesmoke;
+}
+a.nav-link:hover{
+color:black;
+background-color: #e9cd79;
+}a.nav-link.active{
+color:black;
+background-color: #ffc107;
+font-weight: bold;
+}
+h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fas{
+    color:green;
+}
+.fa-solid{
+    color:green;
+}
+.txtarea{
+   max-height:100px;
+    max-width:500px;
+}
+.sendbtn{
+    padding: 10px 50px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .2s ease-in-out;
+}
+.sendbtn:hover{
+    background: #ffff;
+    color: rgb(14, 18, 255);
+
+}
